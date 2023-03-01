@@ -28,7 +28,7 @@ export const Input = styled(Field)`
   transition: border-color 250ms linear;
   :hover,
   :focus {
-    border-color: orange;
+    border-color: pink;
   }
 `;
 
