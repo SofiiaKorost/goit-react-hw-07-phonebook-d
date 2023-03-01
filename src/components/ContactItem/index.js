@@ -1,1 +1,1 @@
-export * from './contactItem';
+export * from './ContactItem';
