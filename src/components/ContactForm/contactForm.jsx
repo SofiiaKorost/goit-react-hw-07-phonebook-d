@@ -1,12 +1,13 @@
+import { nanoid } from 'nanoid';
+import { Formik } from 'formik';
+import * as yup from 'yup';
+import 'yup-phone';
+
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/operations';
 import { useSelector } from 'react-redux/es/exports';
 import { selectContacts } from 'redux/selectors';
 
-import { nanoid } from 'nanoid';
-import { Formik } from 'formik';
-import * as yup from 'yup';
-import 'yup-phone';
 
 import {
   StyledForm,
