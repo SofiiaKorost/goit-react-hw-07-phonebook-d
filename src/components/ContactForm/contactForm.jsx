@@ -21,7 +21,7 @@ const schema = yup.object().shape({
   name: yup.string().required('This field is required'),
   number: yup
     .string()
-    //.phone(null, true, 'Enter your phone number in the format +000000000000')
+    .phone(null, true, 'Enter your phone number in the format +000000000000')
     .required(),
 });
 
