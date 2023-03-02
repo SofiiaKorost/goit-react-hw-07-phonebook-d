@@ -7,7 +7,7 @@ import { selectError, selectIsLoading } from 'redux/selectors';
 import { Container, Text } from './App.styled';
 
 import { Section } from 'components/Section';
-import { ContactForm } from 'components/ContactForm';
+import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter';
 import { ContactList } from 'components/ContactList';
 import { Loader } from 'components/Loader/Loader';
